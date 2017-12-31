@@ -3,6 +3,8 @@ package com.chakraborty.sandipan.calculator;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,10 +16,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class CalculatorActivity extends AppCompatActivity {
-    EditText number1EditText;
-    EditText number2EditText;
+    TextInputEditText number1EditText;
+    TextInputEditText number2EditText;
     Button addbutton;
-    Button resetbutton;
+    FloatingActionButton resetbutton;
     TextView t1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
