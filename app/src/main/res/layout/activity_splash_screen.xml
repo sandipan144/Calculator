@@ -6,9 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.chakraborty.sandipan.calculator.SplashScreen">
 
-    <ImageView
+    <com.airbnb.lottie.LottieAnimationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/ic_calculator"/>
+        android:foregroundGravity="center"
+        app:lottie_fileName="spalshscreen.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
 
 </RelativeLayout>
